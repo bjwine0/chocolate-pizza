@@ -1,21 +1,49 @@
-header {
+* {
+   outline: dotted 1px orange;
+}
 
+.clearfix {
+  clear: both;
+}
+
+header section {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header img {
+  float: left;
+}
+
+.section0 {
+  /* float: left; */
+}
+
+.nav1 {
+  display: inline-block;
+  /* float: right; */
 }
 
 .delicious {
+  /* float: right; */
   font-family: cursive;
+  font-size: 35px;
 }
 
 .best-food {
-
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-right: 100px;
+  /* float: right; */
 }
 
 .div1 {
 
 }
 
-.paramain {
-
+.main1 {
+  width: 960px;
+  margin: 0 auto;
 }
 
 .div2 {
@@ -39,7 +67,8 @@ header {
 }
 
 .section1 {
-
+  width: 960px;
+  margin: 0 auto;
 }
 
 .section2 {
