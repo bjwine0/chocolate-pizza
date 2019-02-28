@@ -9,6 +9,8 @@ body {
   margin: 0 auto;
 }
 
+/* ************************Header */
+
 header {
   width: 901px;
   margin: 30px auto;
@@ -32,7 +34,7 @@ header li {
 
 .header-h5 {
   position: relative;
-  color: gray;
+  color: rgb(184, 177, 177);
   font-size: 12px;
   bottom: 5px;
   font-stretch: extra-expanded;
@@ -60,35 +62,12 @@ li>img {
 
 .wrap {
   border: 5px none blue;
-  color: gray;
+  color: rgb(184, 177, 177);
   margin-bottom: 60px;
 }
 
 
-
-
-
-
-
-
-.main1 {
-  position: relative;
-  width: 901px;
-  margin: 0 auto;
-  margin-bottom: 50px;
-}
-
-.div2 {
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-}
-
-.div3 {
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
-}
+/* ********************** Section */
 
 
 .section1 {
@@ -107,7 +86,7 @@ li>img {
 
 section h3 {
   font-size: 12px;
-  color: gray;
+  color: rgb(184, 177, 177);
   margin-bottom: 30px;
 }
 
@@ -131,12 +110,135 @@ div h3 {
   font-size: 12px;
 }
 
+
+/* *************************Main */
+
+.div2 {
+  position: absolute;
+  left: 96px;
+  bottom: 80px;
+  z-index: 100;
+  font-size: 24px;
+  color: rgb(160, 72, 72);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div2 li {
+  margin-bottom: 7px;
+}
+
+.div3 {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 100;
+  font-size: 24px;
+  bottom: 56px;
+  right: 40px;
+  color: rgb(160, 72, 72);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.div3 li {
+  margin-bottom: 7px;
+}
+
+.main1 {
+  position: relative;
+  width: 901px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+
 main p {
   text-indent: 20px;
   margin-bottom: 30px;
   font-size: 20px;
-  color: gray;
+  color: rgb(139, 130, 130);
   line-height: 25px;
 }
 
+main img {
+  position: relative;
+}
+
+.wrap2 {
+  margin-bottom: 20px;
+  color: rgb(184, 177, 177);
+}
+
+
+/* ***********************Section */
+
+.section2 img {
+  float: left;
+  margin-right: 15px;
+}
+
+.section2 {
+  margin-bottom: 105px;
+  position: relative;
+}
+
+
+/* ***********************Footer */
+
+footer img {
+  position: absolute;
+  right: 429px;
+  bottom: 60px;
+  padding: 0px 6px;
+  background-color: white;
+}
+
+footer {
+  margin-bottom: 100px;
+  position: relative;
+}
+
+footer hr {
+  border: .25px solid rgb(205, 205, 214); 
+  margin-bottom: 35px;
+}
+
+.name {
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: rgb(57, 88, 92);
+}
+
+.under-name {
+  
+  font-size: 18px;
+  color: rgb(139, 130, 130);
+}
+
+button:hover{
+  background-color: gray;
+  color: black;
+}
+  
+button {
+  background-color: rgb(119, 76, 76);
+  color: white;
+  transition-duration: 350ms;
+  font-size: 20px;
+  border-radius: 6px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-top-width: 3px;
+  border-bottom-width: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  right: 0px;
+  bottom: 5px;
+}
+
+footer p {
+  margin-bottom: 10px;
+  color: rgb(139, 130, 130); 
+  text-align: center;
+}
 
