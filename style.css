@@ -1,86 +1,142 @@
-* {
-   outline: dotted 1px orange;
-}
+
 
 .clearfix {
   clear: both;
 }
 
-header section {
-  width: 960px;
+body {
+  width: 901px;
   margin: 0 auto;
 }
 
-header img {
-  float: left;
+header {
+  width: 901px;
+  margin: 30px auto;
+  margin-bottom: 0;
+  height: 75px;
+  position: relative;
+  
 }
 
-.section0 {
-  /* float: left; */
-}
-
-.nav1 {
+header li {
   display: inline-block;
-  /* float: right; */
 }
 
-.delicious {
-  /* float: right; */
+.header-h1 {
+  position: relative;
   font-family: cursive;
-  font-size: 35px;
+  font-size: 40px;
+  bottom: 3px;
+  font-weight: bolder;
 }
 
-.best-food {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 10px;
-  margin-right: 100px;
-  /* float: right; */
+.header-h5 {
+  position: relative;
+  color: gray;
+  font-size: 12px;
+  bottom: 5px;
+  font-stretch: extra-expanded;
 }
 
-.div1 {
+.header-ul {
+  position: absolute;
+  right: 0px;
+  bottom: 35px;
+}
+
+li>img {
+  margin-right: -3px;
+}
+
+.pin {
+  margin-right: 8px;
+}
+
+.headimg {
+  float: left;
+  margin-right: 10px;
 
 }
+
+.wrap {
+  border: 5px none blue;
+  color: gray;
+  margin-bottom: 60px;
+}
+
+
+
+
+
+
+
 
 .main1 {
-  width: 960px;
+  position: relative;
+  width: 901px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .div2 {
-
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
 }
 
 .div3 {
-
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
 
-.div4 {
-
-}
-
-.ul {
-
-}
-
-.body1 {
-
-}
 
 .section1 {
-  width: 960px;
+  width: 901px;
   margin: 0 auto;
+  position: relative;
+  margin-bottom: 30px;
 }
 
-.section2 {
-
+.section1 h1 {
+  font-size: 40px;
+  font-family: 'zantrokeregular', serif;
+  font-weight: bolder
+  
 }
 
-button {
-
+section h3 {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 30px;
 }
 
-.foot {
+section div {
+  float: right;
+  
+}
 
+div img {
+  position: absolute;
+  
+  bottom: 637px;
+  right: 28px;
+}
+
+div h3 {
+  margin-bottom: 0px;
+  position: absolute;
+  bottom: 637px;
+  right: 0px;
+  font-size: 12px;
+}
+
+main p {
+  text-indent: 20px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: gray;
+  line-height: 25px;
 }
 
 
